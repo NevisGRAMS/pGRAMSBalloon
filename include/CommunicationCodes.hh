@@ -72,6 +72,7 @@ enum class CommunicationCodes : uint16_t {
   PGRAMS_COM_CODE_PDU(SiPM_5, 0x23),
   PGRAMS_COM_CODE_PDU(Tof, 0x25),
   PGRAMS_COM_CODE_PDU(TPC_HV, 0x27),
+    PDU_TPCHV_VSET = construct_code(0x29, COM_SUBSYSTEM_PDU_MSK),
 
   // Orchestrator
   ORC_Exec_CPU_Restart = construct_code(0x0, COM_SUBSYSTEM_ORC_MSK),
