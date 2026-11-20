@@ -135,6 +135,7 @@ enum class CommunicationCodes : uint16_t {
   TOF_Start_Asic_Temp_Record           = construct_code(0x10E, COM_SUBSYSTEM_TOF_MSK),
   TOF_Stop_Asic_Temp_Record            = construct_code(0x10F, COM_SUBSYSTEM_TOF_MSK),
   TOF_Read_Temperature_Sensors_Single  = construct_code(0x110, COM_SUBSYSTEM_TOF_MSK),
+  TOF_Send_Pulse_Train                 = construct_code(0x111, COM_SUBSYSTEM_TOF_MSK),
 
   TOF_Process_Threshold_Calibration    = construct_code(0x200, COM_SUBSYSTEM_TOF_MSK),
   TOF_Process_TDC_Calibration          = construct_code(0x201, COM_SUBSYSTEM_TOF_MSK),
